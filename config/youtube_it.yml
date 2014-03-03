@@ -1,0 +1,11 @@
+common: &common
+  dev_key: 'AI39si5X0g7CdPyXKJ3Q9qhJTdeY28cT3PvaPRS2FxWBuyqLgRAu3EmSIZZKXuo0-Hl_-ZKyoYz5SzM-r381xzeyjspw0nKX6w'
+  username:  'sushil342@gmail.com'
+  password:  '9211hundred'
+  
+test:
+  <<: *common
+development:
+  <<: *common
+production:
+  <<: *common
